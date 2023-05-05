@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#BAB7B7">
+
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="#B81212"
+        android:text="Services"
+        android:textAlignment="center"
+        android:textColor="#D5FFFFFF"
+        android:textSize="42dp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints" />
+
+
+    <TextView
+        android:id="@+id/ser1"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="203dp"
+        android:text="#Blood Donor Registretion"
+        android:textColor="#C13E3E"
+        android:textSize="28dp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="153dp" />
+
+    <TextView
+        android:id="@+id/ser2"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="278dp"
+        android:layout_marginEnd="-27dp"
+        android:text="# Blood Availability"
+        android:textColor="#C13E3E"
+        android:textSize="28dp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="205dp" />
+
+    <TextView
+        android:id="@+id/ser3"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="347dp"
+        android:layout_marginEnd="32dp"
+        android:text="# Gives all Notification"
+        android:textColor="#C13E3E"
+        android:textSize="29dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="254dp" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="292dp"
+        android:layout_height="159dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="57dp"
+        android:layout_marginBottom="72dp"
+        android:keyboardNavigationCluster="true"
+        app:srcCompat="@drawable/symbol"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="213dp" />
+
+
+</RelativeLayout>

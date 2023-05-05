@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:ignore="HardcodedText"
+    tools:context=".MainActivity">
+<group
+    android:id="@+id/g1"
+    android:checkableBehavior="single">
+
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:title="Home"
+       />
+
+    <item
+        android:id="@+id/nav_donor"
+        android:icon="@drawable/ic_baseline_pages_24"
+        android:title="Blood Donor Form"
+
+       />
+
+    <item
+        android:id="@+id/nav_receiver"
+        android:icon="@drawable/ic_baseline_pages_24"
+        android:title="Blood Receiver Form"
+        />
+
+    <item
+        android:id="@+id/nav_about"
+        android:icon="@drawable/ic_baseline_info_24"
+        android:title="About" />
+</group>
+    <group
+        android:id="@+id/g2"
+        android:checkableBehavior="single">
+    <item
+        android:id="@+id/nav_share"
+        android:icon="@drawable/ic_baseline_share_24"
+        android:title="Share"
+        />
+    </group>
+
+    <group
+        android:id="@+id/g3"
+        android:checkableBehavior="single">
+    <item
+        android:id="@+id/nav_help"
+        android:icon="@drawable/ic_baseline_help_24"
+        android:title="Help" />
+    </group>
+
+    <group
+        android:id="@+id/g4"
+        android:checkableBehavior="single">
+
+    <item
+        android:id="@+id/nav_follow"
+        android:title="Contact us :" />
+
+        <item
+            android:id="@+id/email"
+            android:icon="@drawable/ic_baseline_email_24"
+            android:title="zanwarharsh2001@gmail.com"
+            />
+
+    </group>
+
+</menu>

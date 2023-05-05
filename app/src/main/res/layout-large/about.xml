@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/ab1"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:text="About"
+        android:textColor="#F31212"
+        android:textSize="50dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/ab2"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="90dp"
+        android:text="This application is to help people who are suffering with their health and needy for blood. Some time the situation of a person who is looking for blood is so critical that he or any of his family member face difficulty to find blood or blood donor. The concept behind this application is to meet blood donor and blood receiver without any third person . The donor can directly donate the blood to the needy patient. This way we can fulfill need of the patient and satisfaction for blood donor."
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/ab3"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="300dp"
+        android:text=" This platformwe help those who are willing to donate The blood and save someone life."
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/ab4"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="370dp"
+        android:text="This application developed by Mr. Harsh Zanwar under the guidance of Mr.Mohsin sir at Government polytechnic, Nanded. "
+        android:textSize="20dp" />
+
+
+    <TextView
+        android:id="@+id/ab6"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/ab4"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+
+        android:text=" For any issues and ideas to modify the application email us at "
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/ab5"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="550dp"
+        android:text=" 'zanwarharsh2001@gmail.com'"
+        android:textColor="#DA4040"
+        android:textSize="35dp" />
+
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="wrap_content"
+        android:layout_height="170dp"
+        android:layout_marginTop="690dp"
+        app:srcCompat="@drawable/symbol" />
+
+
+</RelativeLayout>
